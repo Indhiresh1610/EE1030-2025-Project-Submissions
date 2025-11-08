@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\begin{document}
+\begin{table}[h!]
+\centering
+
+\label{tab:error_analysis}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{K-value} & \textbf{Reconstructed Image} & \textbf{Frobenius Error} & \textbf{Percentage Error} \\
+\hline
+5 &
+  \includegraphics[width=0.2\textwidth]{figs/greyscale/greyscale_k5.png} &
+  11146.3103 &
+ 5.7585\% \\
+\hline
+20 &
+  \includegraphics[width=0.2\textwidth]{figs/greyscale/greyscale_k20.png} &
+3808.1983&
+ 1.9674\% \\
+\hline
+50 &
+  \includegraphics[width=0.2\textwidth]{figs/greyscale/greyscale_k50.png} &
+1160.1552 &
+ 0.5993\% \\
+\hline
+100 &
+  \includegraphics[width=0.2\textwidth]{figs/greyscale/greyscale_k100.png} &
+512.3602&
+0.2647\% \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
+
